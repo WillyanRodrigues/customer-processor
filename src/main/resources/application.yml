@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://20240109-willyan.database.windows.net:1433;database=managementdb;user=willyan@20240109-willyan;password=Selene@032022@1;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: willyan
+    password: Selene@032022@1
+  jpa:
+    hibernate:
+      ddl-auto: create
+logging:
+  level:
+    org.springframework: DEBUG
+    com.zaxxer.hikari: DEBUG
